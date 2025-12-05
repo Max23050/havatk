@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HAVATK - Благотворительный фонд. Помогаем детям в трудных обстоятельствах.">
+    <title>HAVATK - Благотворительный фонд</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">HAVATK</a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">О фонде</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+                    <li class="nav__item"><a href="#help" class="nav__link">Как помочь</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <div class="lang-switcher">
+                    <a href="#" class="lang-link active">RU</a>
+                    <a href="#" class="lang-link">EN</a>
+                    <a href="#" class="lang-link">CS</a>
+                    <a href="#" class="lang-link">UA</a>
+                </div>
+                <a href="#" class="btn btn--primary header__btn">Пожертвовать</a>
+                <button class="burger" id="burger" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__bg"></div>
+            <div class="container hero__container">
+                <h1 class="hero__title fade-in">Помогаем детям в трудных обстоятельствах</h1>
+                <p class="hero__subtitle fade-in delay-1">Мы верим, что каждый ребенок заслуживает шанса процветать</p>
+                <a href="#" class="btn btn--white hero__btn fade-in delay-2">Пожертвовать</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">О фонде HAVATK</h2>
+                    <p class="section__subtitle">
+                        Nadační fond HAVATK оказывает комплексную поддержку детям, находящимся в трудной жизненной
+                        ситуации. С помощью целевых программ и партнерства мы обеспечиваем доступ к основным
+                        потребностям.
+                    </p>
+                </div>
+
+                <div class="about__grid">
+                    <div class="card about__card fade-in delay-1">
+                        <div class="card__icon">
+                            🍽️
+                        </div>
+                        <h3 class="card__title">Базовые потребности</h3>
+                        <p class="card__text">Обеспечение доступа к еде, одежде и жилью.</p>
+                    </div>
+                    <div class="card about__card fade-in delay-2">
+                        <div class="card__icon">
+                            🏥
+                        </div>
+                        <h3 class="card__title">Медицинское обслуживание</h3>
+                        <p class="card__text">Медицинские процедуры, терапия и реабилитация.</p>
+                    </div>
+                    <div class="card about__card fade-in delay-3">
+                        <div class="card__icon">
+                            🌱
+                        </div>
+                        <h3 class="card__title">Развитие и рост</h3>
+                        <p class="card__text">Активное участие в улучшении условий жизни.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section__header fade-in">
+                    <h2 class="section__title">Наши проекты</h2>
+                </div>
+
+                <div class="projects__grid">
+
+                    <div class="card project-card fade-in delay-1">
+                        <div class="project-card__image"
+                            style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            🏃
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="card__title">Спортивная площадка в Дучцове</h3>
+                            <p class="card__text">Строительство спортивного объекта в Детском доме и школе.</p>
+
+                            <div class="progress-bar">
+                                <div class="progress-bar__fill" style="width: 65%;"></div>
+                            </div>
+                            <div class="project-card__stats">
+                                <span>32 500 CZK</span>
+                                <span>из 50 000 CZK</span>
+                            </div>
+
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--primary btn--full">Пожертвовать</a>
+                                <a href="#" class="btn btn--outline btn--full">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card project-card fade-in delay-2">
+                        <div class="project-card__image"
+                            style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            ❤️
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="card__title">Базовые потребности</h3>
+                            <p class="card__text">Еда, одежда и кров для детей в кризис.</p>
+
+                            <div class="progress-bar">
+                                <div class="progress-bar__fill" style="width: 62%;"></div>
+                            </div>
+                            <div class="project-card__stats">
+                                <span>18 750 CZK</span>
+                                <span>из 30 000 CZK</span>
+                            </div>
+
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--primary btn--full">Пожертвовать</a>
+                                <a href="#" class="btn btn--outline btn--full">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="help" class="section help">
+        <div class="container">
+            <div class="section__header fade-in">
+                <h2 class="section__title">Как вы можете помочь</h2>
+            </div>
+
+            <div class="help__grid">
+                <div class="card help__card fade-in delay-1">
+                    <div class="card__icon">
+                        💖
+                    </div>
+                    <h3 class="card__title">Пожертвовать</h3>
+                    <p class="card__text">Сделайте прямое пожертвование через веб-сайт или банковский перевод.</p>
+                    <a href="#" class="btn btn--primary">Узнать больше</a>
+                </div>
+
+                <div class="card help__card fade-in delay-2">
+                    <div class="card__icon">
+                        🤝
+                    </div>
+                    <h3 class="card__title">Волонтер</h3>
+                    <p class="card__text">Отдайте свое время и навыки помощи детям.</p>
+                    <a href="#contact" class="btn btn--primary">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section__header fade-in">
+                <h2 class="section__title">Свяжитесь с нами</h2>
+            </div>
+
+            <div class="contact__grid">
+                <div class="contact__form-wrapper fade-in delay-1">
+                    <form class="contact__form">
+                        <div class="form-group">
+                            <label for="name">Полное имя</label>
+                            <input type="text" id="name" name="name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Тема</label>
+                            <input type="text" id="subject" name="subject" placeholder="Тема сообщения">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Отправить сообщение</button>
+                    </form>
+                </div>
+
+                <div class="contact__info fade-in delay-2">
+                    <h3 class="contact__subtitle">Контактная информация</h3>
+
+                    <div class="info-item">
+                        <h4>Email:</h4>
+                        <a href="mailto:info@nfhavatk.cz">info@nfhavatk.cz</a>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Телефон:</h4>
+                        <a href="tel:+420724123456">+420 724 123 456</a>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Адрес:</h4>
+                        <p>Прага, Чешская Республика</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title">HAVATK Foundation</h4>
+                    <p>Помогаем детям в трудных обстоятельствах с 2020 года.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">i</a>
+                        <a href="#" class="social-link">t</a>
+                    </div>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title">Быстрые ссылки</h4>
+                    <ul class="footer__links">
+                        <li><a href="#about">О фонде</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#help">Как помочь</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h4 class="footer__title">Правовая информация</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия использования</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
