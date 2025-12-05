@@ -228,6 +228,19 @@ h4 {
     background-color: var(--color-text);
     border-radius: 3px;
     transition: var(--transition);
+    transform-origin: center;
+}
+
+.burger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
 }
 
 

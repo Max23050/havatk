@@ -7,29 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.addEventListener('click', () => {
         nav.classList.toggle('active');
         burger.classList.toggle('active');
-
-
-        const spans = burger.querySelectorAll('span');
-        if (nav.classList.contains('active')) {
-            spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-            spans[1].style.opacity = '0';
-            spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-        } else {
-            spans[0].style.transform = 'none';
-            spans[1].style.opacity = '1';
-            spans[2].style.transform = 'none';
-        }
     });
 
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             nav.classList.remove('active');
             burger.classList.remove('active');
-
-            const spans = burger.querySelectorAll('span');
-            spans[0].style.transform = 'none';
-            spans[1].style.opacity = '1';
-            spans[2].style.transform = 'none';
         });
     });
 
