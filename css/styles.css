@@ -192,6 +192,57 @@ h4 {
     color: var(--color-primary);
 }
 
+
+.nav__item--dropdown {
+    position: relative;
+}
+
+.nav__dropdown {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-white);
+    min-width: 250px;
+    padding: 0.75rem 0;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.nav__dropdown::before {
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+}
+
+.nav__item--dropdown:hover .nav__dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav__dropdown li a {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav__dropdown li a:hover {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
 .header__actions {
     display: flex;
     align-items: center;
@@ -443,6 +494,32 @@ h4 {
 .project-card__actions {
     display: flex;
     gap: 1rem;
+}
+
+
+.project-card--completed {
+    position: relative;
+}
+
+.project-card__badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.progress-bar--completed .progress-bar__fill {
+    background: linear-gradient(90deg, #10b981, #059669);
 }
 
 
@@ -963,6 +1040,27 @@ h4 {
     color: var(--color-primary);
 }
 
+.project-progress-widget--completed {
+    position: relative;
+}
+
+.project-progress-widget__badge {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: 0.4rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-progress-widget--completed .project-progress-widget__collected {
+    color: #10b981;
+}
+
 /* Fundraiser Page */
 .fundraiser-page {
     background-color: var(--color-white);
@@ -1105,4 +1203,13 @@ h4 {
     .fundraiser-section__title {
         font-size: 1.3rem;
     }
+}
+
+
+.fundraiser-page+.contact {
+    padding-top: 2rem;
+}
+
+.fundraiser-page {
+    padding-bottom: 2rem;
 }

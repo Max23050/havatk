@@ -24,8 +24,20 @@
             <nav class="nav" id="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#about" class="nav__link">О фонде</a></li>
-                    <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
-                    <li class="nav__item"><a href="#help" class="nav__link">Как помочь</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a href="#projects" class="nav__link">Проекты</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="project-playground.html">Спортивная площадка в Духцове</a></li>
+                            <li><a href="#">Базовые потребности</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a href="#help" class="nav__link">Как помочь</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="#">Пожертвовать</a></li>
+                            <li><a href="fundraiser.html">Станьте Фандрайзером</a></li>
+                        </ul>
+                    </li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
                 </ul>
             </nav>
@@ -52,7 +64,8 @@
             <div class="hero__bg"></div>
             <div class="container hero__container">
                 <h1 class="hero__title fade-in">Помогаем детям в трудных обстоятельствах</h1>
-                <p class="hero__subtitle fade-in delay-1">Мы верим, что каждый ребенок заслуживает шанса процветать</p>
+                <p class="hero__subtitle fade-in delay-1">Мы верим, что каждый ребёнок заслуживает безопасное и
+                    счастливое будущее</p>
                 <a href="#" class="btn btn--white hero__btn fade-in delay-2">Пожертвовать</a>
             </div>
         </section>
@@ -106,7 +119,15 @@
 
                 <div class="projects__grid">
 
-                    <div class="card project-card fade-in delay-1">
+                    <div class="card project-card project-card--completed fade-in delay-1">
+                        <div class="project-card__badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Сбор завершён
+                        </div>
                         <div class="project-card__image"
                             style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                             🏃
@@ -115,12 +136,12 @@
                             <h3 class="card__title">Спортивная площадка в Духцове</h3>
                             <p class="card__text">Строительство спортивного объекта в Детском доме и школе.</p>
 
-                            <div class="progress-bar">
-                                <div class="progress-bar__fill" style="width: 65%;"></div>
+                            <div class="progress-bar progress-bar--completed">
+                                <div class="progress-bar__fill" style="width: 100%;"></div>
                             </div>
                             <div class="project-card__stats">
-                                <span>32 500 CZK</span>
-                                <span>из 50 000 CZK</span>
+                                <span>400 000 CZK</span>
+                                <span>из 400 000 CZK</span>
                             </div>
 
                             <div class="project-card__actions">

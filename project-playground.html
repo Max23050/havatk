@@ -23,8 +23,20 @@
             <nav class="nav" id="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.html#about" class="nav__link">О фонде</a></li>
-                    <li class="nav__item"><a href="index.html#projects" class="nav__link">Проекты</a></li>
-                    <li class="nav__item"><a href="index.html#help" class="nav__link">Как помочь</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a href="index.html#projects" class="nav__link">Проекты</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="project-playground.html">Спортивная площадка в Духцове</a></li>
+                            <li><a href="#">Базовые потребности</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--dropdown">
+                        <a href="index.html#help" class="nav__link">Как помочь</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="#">Пожертвовать</a></li>
+                            <li><a href="fundraiser.html">Станьте Фандрайзером</a></li>
+                        </ul>
+                    </li>
                     <li class="nav__item"><a href="index.html#contact" class="nav__link">Контакты</a></li>
                 </ul>
             </nav>
@@ -135,14 +147,22 @@
                             <a href="#" class="btn btn--primary btn--full donation-widget__btn">Пожертвовать</a>
                         </div>
 
-                        <div class="project-progress-widget">
+                        <div class="project-progress-widget project-progress-widget--completed">
+                            <div class="project-progress-widget__badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Сбор завершён
+                            </div>
                             <h4>Прогресс сбора</h4>
-                            <div class="progress-bar">
-                                <div class="progress-bar__fill" style="width: 65%;"></div>
+                            <div class="progress-bar progress-bar--completed">
+                                <div class="progress-bar__fill" style="width: 100%;"></div>
                             </div>
                             <div class="project-progress-widget__stats">
-                                <span class="project-progress-widget__collected">32 500 CZK</span>
-                                <span>из 50 000 CZK</span>
+                                <span class="project-progress-widget__collected">400 000 CZK</span>
+                                <span>из 400 000 CZK</span>
                             </div>
                         </div>
                     </aside>
