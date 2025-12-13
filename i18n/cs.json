@@ -1,0 +1,197 @@
+{
+    "menu": {
+        "about": "O nadaci",
+        "projects": "Projekty",
+        "help": "Jak pomoci",
+        "contacts": "Kontakty",
+        "donate": "Darovat"
+    },
+    "hero": {
+        "title": "Pomáháme dětem v obtížných životních situacích",
+        "subtitle": "Věříme, že každé dítě si zaslouží bezpečnou a šťastnou budoucnost",
+        "button": "Darovat"
+    },
+    "about": {
+        "title": "O nadaci HAVATK",
+        "text": "Naše nadace HAVATK se zaměřuje na pomoc dětem, které se ocitly v obtížné životní situaci. Poskytujeme každému dítěti vše potřebné, včetně jídla, oblečení a bydlení. Podporujeme také děti se závažnými zdravotními problémy financováním lékařských zákroků, terapie a rehabilitace. Spolupracujeme s místními organizacemi a zdravotnickými zařízeními, abychom zajistili účinnou pomoc. Pořádáním akcí a sbírek podporujeme naše projekty a zlepšujeme životní podmínky dětí v nouzi."
+    },
+    "supportAreas": {
+        "basicNeeds": {
+            "title": "Základní potřeby",
+            "description": "Zajištění přístupu k jídlu, oblečení a bydlení."
+        },
+        "medicalCare": {
+            "title": "Zdravotní péče",
+            "description": "Lékařské zákroky, terapie a rehabilitace."
+        },
+        "growthDevelopment": {
+            "title": "Rozvoj a růst",
+            "description": "Aktivní zapojení do zlepšování životních podmínek."
+        }
+    },
+    "projects": {
+        "title": "Naše projekty",
+        "status": {
+            "completed": "Sbírka ukončena"
+        },
+        "items": {
+            "sportsGround": {
+                "title": "Sportovní hřiště v Duchcově",
+                "description": "Výstavba sportovního areálu v dětském domově a škole.",
+                "button": "Více informací"
+            },
+            "basicNeeds": {
+                "title": "Základní potřeby",
+                "description": "Jídlo, oblečení a přístřeší pro děti v krizi.",
+                "button": "Více informací"
+            }
+        }
+    },
+    "projectPage": {
+        "back": "Zpět na projekty",
+        "title": "Naše projekty",
+        "project": {
+            "title": "Sportovní hřiště v Duchcově",
+            "photo": "Fotografie"
+        }
+    },
+    "projectDetail": {
+        "paragraphs": [
+            "Nadace „Havatk“ byla založena s jasným cílem – pomáhat dětem, které se ocitly v obtížné životní situaci, a podporovat je na cestě k lepší budoucnosti. Věříme, že každé dítě si zaslouží možnost vyrůstat v bezpečí, mít prostor pro rozvoj a jednoho dne sebevědomě a odvážně vstoupit do dospělého života.",
+            "Jedním z našich klíčových úspěchů bylo dokončení výstavby venkovního sportovního hřiště ve spolupráci s dětským domovem a základní a střední školou v Duchcově. Tento prostor nyní slouží jako místo, kde mohou děti aktivně trávit čas, sportovat, setkávat se, sdílet zkušenosti a posilovat přátelské vztahy. Hřiště se již stalo důležitým centrem setkávání a místem, které děti inspiruje k pohybu, rozvoji a novým vítězstvím.",
+            "Cílem naší nadace je poskytovat dětem dlouhodobou podporu v těžkých životních chvílích a pomáhat jim růst. Zvláštní pozornost věnujeme jejich vzdělání, zdravému životnímu stylu a psychické pohodě. Každý náš projekt je zaměřen nejen na zmírnění aktuálních obtíží, ale také na přinášení skutečných, hmatatelných a dlouhodobých hodnot.",
+            "Společně už měníme životy dětí k lepšímu. Děkujeme za vaši podporu a důvěru v naši misi."
+        ]
+    },
+    "donationWidget": {
+        "title": "Podpořte projekt",
+        "amounts": {
+            "other": "Jiná částka"
+        },
+        "frequency": {
+            "oneTime": "Jednorázově",
+            "monthly": "Měsíčně"
+        },
+        "button": "Darovat",
+        "status": {
+            "completed": "Sbírka ukončena"
+        },
+        "progress": {
+            "title": "Průběh sbírky"
+        }
+    },
+    "howToHelp": {
+        "title": "Jak můžete pomoci",
+        "donate": {
+            "title": "Darovat",
+            "description": "Přispějte přímo prostřednictvím webu nebo bankovním převodem.",
+            "button": "Zjistit více"
+        },
+        "fundraiser": {
+            "title": "Staňte se fundraiserem",
+            "description": "Věnujte svůj čas a dovednosti na pomoc dětem.",
+            "button": "Zjistit více"
+        }
+    },
+    "fundraiserPage": {
+        "back": "Zpět",
+        "title": "Jak nám můžete pomoci?",
+        "section": {
+            "title": "Staňte se fundraiserem",
+            "description": "Nadační fond Havatk rozšiřuje <strong>svůj fundraisingový tým</strong> a vy se můžete stát jeho součástí."
+        },
+        "cta": {
+            "title": "Fundraiser nadace „Havatk“",
+            "subtitle": "Staňte se součástí týmu, který pomáhá dětem"
+        }
+    },
+    "fundraiserDetails": {
+        "fitSection": {
+            "title": "Je tato role pro vás vhodná?",
+            "items": [
+                "Rádi pracujete v aktivním a přátelském týmu?",
+                "Baví vás komunikace a přímý kontakt s lidmi?",
+                "Chcete se podílet na činnosti neziskové organizace?",
+                "Je pro vás důležité vidět skutečné výsledky své práce?"
+            ],
+            "conclusion": "Pokud ano — vítejte v našem týmu."
+        },
+        "responsibilities": {
+            "title": "Co budete dělat",
+            "paragraphs": [
+                "Fundraiser je zástupce nadace, který komunikuje s lidmi ve městě, představuje projekty nadace „Havatk“ a inspiruje je k podpoře dětí v obtížné životní situaci.",
+                "Budete se podílet na práci, která přináší skutečný přínos a mění dětské životy k lepšímu."
+            ]
+        }
+    },
+    "fundraiserRequirements": {
+        "requirements": {
+            "title": "Požadavky",
+            "items": [
+                "Komunikační dovednosti a pozitivní přístup",
+                "Schopnost snadno navazovat dialog",
+                "Chuť pomáhat dětem a rozvíjet se",
+                "Zodpovědnost a respekt k lidem",
+                "<strong>Zkušenosti nejsou nutné — vše vás naučíme</strong>"
+            ]
+        },
+        "offer": {
+            "title": "Nabízíme",
+            "items": [
+                "Flexibilní rozvrh — vyberete si dny a časy, které vám vyhovují",
+                "Práci v podporujícím a motivovaném týmu",
+                "Lokace po celé Praze — koordinátor vám pomůže s výběrem",
+                "Rychlé zaškolení a průběžnou podporu",
+                "Možnosti profesního i osobního růstu"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Kontaktujte nás",
+        "form": {
+            "fullName": {
+                "label": "Celé jméno",
+                "placeholder": "Vaše jméno"
+            },
+            "email": {
+                "label": "E-mail",
+                "placeholder": "email@example.com"
+            },
+            "subject": {
+                "label": "Předmět",
+                "placeholder": "Předmět zprávy"
+            },
+            "message": {
+                "label": "Zpráva",
+                "placeholder": "Vaše zpráva..."
+            },
+            "button": "Odeslat zprávu"
+        },
+        "info": {
+            "title": "Kontaktní informace",
+            "emailLabel": "Email:",
+            "phoneLabel": "Telefon:",
+            "addressLabel": "Adresa:",
+            "address": "Praha, Česká republika"
+        }
+    },
+    "footer": {
+        "about": {
+            "title": "Nadace HAVATK",
+            "description": "Pomáháme dětem v obtížných životních situacích od roku 2020."
+        },
+        "quickLinks": {
+            "title": "Rychlé odkazy",
+            "about": "O nadaci",
+            "projects": "Projekty",
+            "help": "Jak pomoci",
+            "contacts": "Kontakty"
+        },
+        "legal": {
+            "title": "Právní informace",
+            "privacy": "Zásady ochrany osobních údajů",
+            "terms": "Podmínky použití"
+        },
+        "copyright": "© 2025 Nadace HAVATK. Všechna práva vyhrazena."
+    }
+}

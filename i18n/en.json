@@ -1,0 +1,199 @@
+{
+    "menu": {
+        "about": "About the Foundation",
+        "projects": "Projects",
+        "help": "How to Help",
+        "contacts": "Contacts",
+        "donate": "Donate"
+    },
+    "hero": {
+        "title": "Helping children in difficult circumstances",
+        "subtitle": "We believe that every child deserves a safe and happy future",
+        "button": "Donate"
+    },
+    "about": {
+        "title": "About the HAVATK Foundation",
+        "text": "The HAVATK Foundation focuses on helping children who find themselves in difficult life situations. We provide each child with essential support, including food, clothing, and housing. We also support children with serious health conditions by funding medical procedures, therapy, and rehabilitation. We work closely with local organizations and medical institutions to ensure effective assistance. By organizing events and fundraising initiatives, we support our projects and improve the living conditions of children in need."
+    },
+    "supportAreas": {
+        "basicNeeds": {
+            "title": "Basic Needs",
+            "description": "Providing access to food, clothing, and housing."
+        },
+        "medicalCare": {
+            "title": "Medical Care",
+            "description": "Medical procedures, therapy, and rehabilitation."
+        },
+        "growthDevelopment": {
+            "title": "Growth and Development",
+            "description": "Supporting long-term development and better living conditions."
+        }
+    },
+    "projects": {
+        "title": "Our Projects",
+        "status": {
+            "completed": "Fundraising completed"
+        },
+        "items": {
+            "sportsGround": {
+                "title": "Sports Ground in Dukhove",
+                "description": "Construction of a sports facility in an orphanage and a school.",
+                "button": "Learn more"
+            },
+            "basicNeeds": {
+                "title": "Basic Needs",
+                "description": "Food, clothing, and shelter for children in crisis.",
+                "button": "Learn more"
+            }
+        }
+    },
+    "projectPage": {
+        "back": "Back to projects",
+        "title": "Our Projects",
+        "project": {
+            "title": "Sports Ground in Dukhove",
+            "photo": "Photo"
+        }
+    },
+    "projectDetail": {
+        "paragraphs": [
+            "The HAVATK Foundation was established with a clear mission — to help children facing difficult life situations and to support them on their path to a better future. We believe that every child deserves the opportunity to grow up in safety, have space for personal development, and one day step confidently and courageously into adult life.",
+            "One of our key achievements was the completion of an outdoor sports ground built in cooperation with an orphanage, a primary school, and a secondary school in Dukhove. This space now serves as a place where children can spend time actively, play sports, meet others, share experiences, and build strong friendships. The sports ground has already become an important community hub that inspires children to move, grow, and achieve new victories.",
+            "The goal of our foundation is to provide long-term support to children during challenging periods of their lives and help them grow. We place special emphasis on education, a healthy lifestyle, and psychological well-being. Each of our projects is designed not only to ease current difficulties but also to bring real, tangible, and lasting value to children.",
+            "Together, we are already changing children’s lives for the better. Thank you for your support and for believing in our mission."
+        ]
+    },
+    "donationWidget": {
+        "title": "Support the Project",
+        "amounts": {
+            "other": "Other"
+        },
+        "frequency": {
+            "oneTime": "One-time",
+            "monthly": "Monthly"
+        },
+        "button": "Donate",
+        "status": {
+            "completed": "Fundraising completed"
+        },
+        "progress": {
+            "title": "Fundraising Progress",
+            "raised": "400,000 CZK",
+            "goal": "out of 400,000 CZK"
+        }
+    },
+    "howToHelp": {
+        "title": "How You Can Help",
+        "donate": {
+            "title": "Donate",
+            "description": "Make a direct donation through the website or via bank transfer.",
+            "button": "Learn more"
+        },
+        "fundraiser": {
+            "title": "Become a Fundraiser",
+            "description": "Give your time and skills to help children in need.",
+            "button": "Learn more"
+        }
+    },
+    "fundraiserPage": {
+        "back": "Back",
+        "title": "How Can You Help Us?",
+        "section": {
+            "title": "Become a Fundraiser",
+            "description": "The HAVATK Foundation is <strong>expanding its fundraising team</strong>, and you can become part of it."
+        },
+        "cta": {
+            "title": "HAVATK Foundation Fundraiser",
+            "subtitle": "Become part of the team that helps children"
+        }
+    },
+    "fundraiserDetails": {
+        "fitSection": {
+            "title": "Is This Role Right for You?",
+            "items": [
+                "Do you enjoy working in an active and friendly team?",
+                "Do you like communication and direct contact with people?",
+                "Do you want to be involved in the work of a charitable organization?",
+                "Is it important for you to see real results from your work?"
+            ],
+            "conclusion": "If yes — welcome to our team."
+        },
+        "responsibilities": {
+            "title": "What You Will Do",
+            "paragraphs": [
+                "A fundraiser is a representative of the foundation who communicates with people in the city, talks about HAVATK’s projects, and inspires them to support children facing difficult life situations.",
+                "You will take part in meaningful work that brings tangible benefits and helps change children’s lives for the better."
+            ]
+        }
+    },
+    "fundraiserRequirements": {
+        "requirements": {
+            "title": "What We Are Looking For",
+            "items": [
+                "Strong communication skills and a positive attitude",
+                "Ability to easily engage in conversation",
+                "A genuine desire to help children and grow personally",
+                "Responsibility and respectful attitude toward people",
+                "<strong>No prior experience required — we provide full training</strong>"
+            ]
+        },
+        "offer": {
+            "title": "What We Offer",
+            "items": [
+                "Flexible schedule — choose days and hours that suit you",
+                "Work in a supportive and motivated team",
+                "Locations across Prague — a coordinator will help you choose",
+                "Fast onboarding, training, and ongoing support",
+                "Opportunities for professional and personal growth"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "form": {
+            "fullName": {
+                "label": "Full Name",
+                "placeholder": "Your name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "email@example.com"
+            },
+            "subject": {
+                "label": "Subject",
+                "placeholder": "Message subject"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Your message..."
+            },
+            "button": "Send Message"
+        },
+        "info": {
+            "title": "Contact Information",
+            "emailLabel": "Email",
+            "phoneLabel": "Phone",
+            "addressLabel": "Address",
+            "address": "Prague, Czech Republic"
+        }
+    },
+    "footer": {
+        "about": {
+            "title": "HAVATK Foundation",
+            "description": "Helping children in difficult circumstances since 2020."
+        },
+        "quickLinks": {
+            "title": "Quick Links",
+            "about": "About the Foundation",
+            "projects": "Projects",
+            "help": "How to Help",
+            "contacts": "Contacts"
+        },
+        "legal": {
+            "title": "Legal Information",
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions"
+        },
+        "copyright": "© 2025 HAVATK Foundation. All rights reserved."
+    }
+}

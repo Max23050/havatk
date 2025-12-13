@@ -23,22 +23,25 @@
 
             <nav class="nav" id="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#about" class="nav__link">О фонде</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link" data-i18n="menu.about">О фонде</a></li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="#projects" class="nav__link">Проекты</a>
+                        <a href="#projects" class="nav__link" data-i18n="menu.projects">Проекты</a>
                         <ul class="nav__dropdown">
-                            <li><a href="project-playground.html">Спортивная площадка в Духцове</a></li>
-                            <li><a href="#">Базовые потребности</a></li>
+                            <li><a href="project-playground.html"
+                                    data-i18n="projects.items.sportsGround.title">Спортивная площадка в Духцове</a></li>
+                            <li><a href="#" data-i18n="projects.items.basicNeeds.title">Базовые потребности</a></li>
                         </ul>
                     </li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="#help" class="nav__link">Как помочь</a>
+                        <a href="#help" class="nav__link" data-i18n="menu.help">Как помочь</a>
                         <ul class="nav__dropdown">
-                            <li><a href="#">Пожертвовать</a></li>
-                            <li><a href="fundraiser.html">Станьте Фандрайзером</a></li>
+                            <li><a href="#" data-i18n="menu.donate">Пожертвовать</a></li>
+                            <li><a href="fundraiser.html" data-i18n="howToHelp.fundraiser.title">Станьте
+                                    Фандрайзером</a></li>
                         </ul>
                     </li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" data-i18n="menu.contacts">Контакты</a>
+                    </li>
                 </ul>
             </nav>
 
@@ -49,7 +52,7 @@
                     <a href="#" class="lang-link">CS</a>
                     <a href="#" class="lang-link">UA</a>
                 </div>
-                <a href="#" class="btn btn--primary header__btn">Пожертвовать</a>
+                <a href="#" class="btn btn--primary header__btn" data-i18n="menu.donate">Пожертвовать</a>
                 <button class="burger" id="burger" aria-label="Меню">
                     <span></span>
                     <span></span>
@@ -63,18 +66,19 @@
         <section class="hero">
             <div class="hero__bg"></div>
             <div class="container hero__container">
-                <h1 class="hero__title fade-in">Помогаем детям в трудных обстоятельствах</h1>
-                <p class="hero__subtitle fade-in delay-1">Мы верим, что каждый ребёнок заслуживает безопасное и
+                <h1 class="hero__title fade-in" data-i18n="hero.title">Помогаем детям в трудных обстоятельствах</h1>
+                <p class="hero__subtitle fade-in delay-1" data-i18n="hero.subtitle">Мы верим, что каждый ребёнок
+                    заслуживает безопасное и
                     счастливое будущее</p>
-                <a href="#" class="btn btn--white hero__btn fade-in delay-2">Пожертвовать</a>
+                <a href="#" class="btn btn--white hero__btn fade-in delay-2" data-i18n="hero.button">Пожертвовать</a>
             </div>
         </section>
 
         <section id="about" class="section about">
             <div class="container">
                 <div class="section__header fade-in">
-                    <h2 class="section__title">О фонде HAVATK</h2>
-                    <p class="section__subtitle">
+                    <h2 class="section__title" data-i18n="about.title">О фонде HAVATK</h2>
+                    <p class="section__subtitle" data-i18n="about.text">
                         Наш фонд HAVATK фокусируется на помощи детям, оказавшимся в трудной жизненной ситуации. Мы
                         обеспечиваем каждого ребёнка всем необходимым, включая питание, одежду и жильё. Мы также
                         поддерживаем детей с серьёзными проблемами со здоровьем, финансируя медицинские процедуры,
@@ -89,22 +93,25 @@
                         <div class="card__icon">
                             🍽️
                         </div>
-                        <h3 class="card__title">Базовые потребности</h3>
-                        <p class="card__text">Обеспечение доступа к еде, одежде и жилью.</p>
+                        <h3 class="card__title" data-i18n="supportAreas.basicNeeds.title">Базовые потребности</h3>
+                        <p class="card__text" data-i18n="supportAreas.basicNeeds.description">Обеспечение доступа к еде,
+                            одежде и жилью.</p>
                     </div>
                     <div class="card about__card fade-in delay-2">
                         <div class="card__icon">
                             🏥
                         </div>
-                        <h3 class="card__title">Медицинское обслуживание</h3>
-                        <p class="card__text">Медицинские процедуры, терапия и реабилитация.</p>
+                        <h3 class="card__title" data-i18n="supportAreas.medicalCare.title">Медицинское обслуживание</h3>
+                        <p class="card__text" data-i18n="supportAreas.medicalCare.description">Медицинские процедуры,
+                            терапия и реабилитация.</p>
                     </div>
                     <div class="card about__card fade-in delay-3">
                         <div class="card__icon">
                             🌱
                         </div>
-                        <h3 class="card__title">Развитие и рост</h3>
-                        <p class="card__text">Активное участие в улучшении условий жизни.</p>
+                        <h3 class="card__title" data-i18n="supportAreas.growthDevelopment.title">Развитие и рост</h3>
+                        <p class="card__text" data-i18n="supportAreas.growthDevelopment.description">Активное участие в
+                            улучшении условий жизни.</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +121,7 @@
         <section id="projects" class="section projects">
             <div class="container">
                 <div class="section__header fade-in">
-                    <h2 class="section__title">Наши проекты</h2>
+                    <h2 class="section__title" data-i18n="projects.title">Наши проекты</h2>
                 </div>
 
                 <div class="projects__grid">
@@ -126,15 +133,17 @@
                                 stroke-linejoin="round">
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
-                            Сбор завершён
+                            <span data-i18n="projects.status.completed">Сбор завершён</span>
                         </div>
                         <div class="project-card__image"
                             style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                             🏃
                         </div>
                         <div class="project-card__content">
-                            <h3 class="card__title">Спортивная площадка в Духцове</h3>
-                            <p class="card__text">Строительство спортивного объекта в Детском доме и школе.</p>
+                            <h3 class="card__title" data-i18n="projects.items.sportsGround.title">Спортивная площадка в
+                                Духцове</h3>
+                            <p class="card__text" data-i18n="projects.items.sportsGround.description">Строительство
+                                спортивного объекта в Детском доме и школе.</p>
 
                             <div class="progress-bar progress-bar--completed">
                                 <div class="progress-bar__fill" style="width: 100%;"></div>
@@ -145,7 +154,8 @@
                             </div>
 
                             <div class="project-card__actions">
-                                <a href="project-playground.html" class="btn btn--primary btn--full">Подробнее</a>
+                                <a href="project-playground.html" class="btn btn--primary btn--full"
+                                    data-i18n="projects.items.sportsGround.button">Подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -156,8 +166,9 @@
                             ❤️
                         </div>
                         <div class="project-card__content">
-                            <h3 class="card__title">Базовые потребности</h3>
-                            <p class="card__text">Еда, одежда и кров для детей в кризис.</p>
+                            <h3 class="card__title" data-i18n="projects.items.basicNeeds.title">Базовые потребности</h3>
+                            <p class="card__text" data-i18n="projects.items.basicNeeds.description">Еда, одежда и кров
+                                для детей в кризис.</p>
 
                             <div class="progress-bar">
                                 <div class="progress-bar__fill" style="width: 62%;"></div>
@@ -168,7 +179,8 @@
                             </div>
 
                             <div class="project-card__actions">
-                                <a href="#" class="btn btn--primary btn--full">Подробнее</a>
+                                <a href="#" class="btn btn--primary btn--full"
+                                    data-i18n="projects.items.basicNeeds.button">Подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -180,7 +192,7 @@
     <section id="help" class="section help">
         <div class="container">
             <div class="section__header fade-in">
-                <h2 class="section__title">Как вы можете помочь</h2>
+                <h2 class="section__title" data-i18n="howToHelp.title">Как вы можете помочь</h2>
             </div>
 
             <div class="help__grid">
@@ -188,18 +200,21 @@
                     <div class="card__icon">
                         💖
                     </div>
-                    <h3 class="card__title">Пожертвовать</h3>
-                    <p class="card__text">Сделайте прямое пожертвование через веб-сайт или банковский перевод.</p>
-                    <a href="#" class="btn btn--primary">Узнать больше</a>
+                    <h3 class="card__title" data-i18n="howToHelp.donate.title">Пожертвовать</h3>
+                    <p class="card__text" data-i18n="howToHelp.donate.description">Сделайте прямое пожертвование через
+                        веб-сайт или банковский перевод.</p>
+                    <a href="#" class="btn btn--primary" data-i18n="howToHelp.donate.button">Узнать больше</a>
                 </div>
 
                 <div class="card help__card fade-in delay-2">
                     <div class="card__icon">
                         🤝
                     </div>
-                    <h3 class="card__title">Станьте Фандрайзером</h3>
-                    <p class="card__text">Отдайте свое время и навыки помощи детям.</p>
-                    <a href="fundraiser.html" class="btn btn--primary">Узнать больше</a>
+                    <h3 class="card__title" data-i18n="howToHelp.fundraiser.title">Станьте Фандрайзером</h3>
+                    <p class="card__text" data-i18n="howToHelp.fundraiser.description">Отдайте свое время и навыки
+                        помощи детям.</p>
+                    <a href="fundraiser.html" class="btn btn--primary" data-i18n="howToHelp.fundraiser.button">Узнать
+                        больше</a>
                 </div>
             </div>
         </div>
@@ -208,48 +223,53 @@
     <section id="contact" class="section contact">
         <div class="container">
             <div class="section__header fade-in">
-                <h2 class="section__title">Свяжитесь с нами</h2>
+                <h2 class="section__title" data-i18n="contact.title">Свяжитесь с нами</h2>
             </div>
 
             <div class="contact__grid">
                 <div class="contact__form-wrapper fade-in delay-1">
                     <form class="contact__form">
                         <div class="form-group">
-                            <label for="name">Полное имя</label>
-                            <input type="text" id="name" name="name" placeholder="Ваше имя">
+                            <label for="name" data-i18n="contact.form.fullName.label">Полное имя</label>
+                            <input type="text" id="name" name="name" placeholder="Ваше имя"
+                                data-i18n-placeholder="contact.form.fullName.placeholder">
                         </div>
                         <div class="form-group">
-                            <label for="email">Электронная почта</label>
-                            <input type="email" id="email" name="email" placeholder="email@example.com">
+                            <label for="email" data-i18n="contact.form.email.label">Электронная почта</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com"
+                                data-i18n-placeholder="contact.form.email.placeholder">
                         </div>
                         <div class="form-group">
-                            <label for="subject">Тема</label>
-                            <input type="text" id="subject" name="subject" placeholder="Тема сообщения">
+                            <label for="subject" data-i18n="contact.form.subject.label">Тема</label>
+                            <input type="text" id="subject" name="subject" placeholder="Тема сообщения"
+                                data-i18n-placeholder="contact.form.subject.placeholder">
                         </div>
                         <div class="form-group">
-                            <label for="message">Сообщение</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение..."></textarea>
+                            <label for="message" data-i18n="contact.form.message.label">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение..."
+                                data-i18n-placeholder="contact.form.message.placeholder"></textarea>
                         </div>
-                        <button type="submit" class="btn btn--primary btn--full">Отправить сообщение</button>
+                        <button type="submit" class="btn btn--primary btn--full"
+                            data-i18n="contact.form.button">Отправить сообщение</button>
                     </form>
                 </div>
 
                 <div class="contact__info fade-in delay-2">
-                    <h3 class="contact__subtitle">Контактная информация</h3>
+                    <h3 class="contact__subtitle" data-i18n="contact.info.title">Контактная информация</h3>
 
                     <div class="info-item">
-                        <h4>Email:</h4>
+                        <h4 data-i18n="contact.info.emailLabel">Email:</h4>
                         <a href="mailto:info@nfhavatk.cz">info@nfhavatk.cz</a>
                     </div>
 
                     <div class="info-item">
-                        <h4>Телефон:</h4>
+                        <h4 data-i18n="contact.info.phoneLabel">Телефон:</h4>
                         <a href="tel:+420724123456">+420 724 123 456</a>
                     </div>
 
                     <div class="info-item">
-                        <h4>Адрес:</h4>
-                        <p>Прага, Чешская Республика</p>
+                        <h4 data-i18n="contact.info.addressLabel">Адрес:</h4>
+                        <p data-i18n="contact.info.address">Прага, Чешская Республика</p>
                     </div>
                 </div>
             </div>
@@ -261,8 +281,8 @@
         <div class="container footer__container">
             <div class="footer__grid">
                 <div class="footer__col">
-                    <h4 class="footer__title">HAVATK Foundation</h4>
-                    <p>Помогаем детям в трудных обстоятельствах с 2020 года.</p>
+                    <h4 class="footer__title" data-i18n="footer.about.title">HAVATK Foundation</h4>
+                    <p data-i18n="footer.about.description">Помогаем детям в трудных обстоятельствах с 2020 года.</p>
                     <div class="social-links">
                         <a href="#" class="social-link" aria-label="Facebook">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
@@ -280,25 +300,25 @@
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Быстрые ссылки</h4>
+                    <h4 class="footer__title" data-i18n="footer.quickLinks.title">Быстрые ссылки</h4>
                     <ul class="footer__links">
-                        <li><a href="#about">О фонде</a></li>
-                        <li><a href="#projects">Проекты</a></li>
-                        <li><a href="#help">Как помочь</a></li>
-                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#about" data-i18n="footer.quickLinks.about">О фонде</a></li>
+                        <li><a href="#projects" data-i18n="footer.quickLinks.projects">Проекты</a></li>
+                        <li><a href="#help" data-i18n="footer.quickLinks.help">Как помочь</a></li>
+                        <li><a href="#contact" data-i18n="footer.quickLinks.contacts">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Правовая информация</h4>
+                    <h4 class="footer__title" data-i18n="footer.legal.title">Правовая информация</h4>
                     <ul class="footer__links">
-                        <li><a href="#">Политика конфиденциальности</a></li>
-                        <li><a href="#">Условия использования</a></li>
+                        <li><a href="#" data-i18n="footer.legal.privacy">Политика конфиденциальности</a></li>
+                        <li><a href="#" data-i18n="footer.legal.terms">Условия использования</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                <p>&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
             </div>
         </div>
     </footer>

@@ -22,22 +22,26 @@
 
             <nav class="nav" id="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">О фонде</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link" data-i18n="menu.about">О
+                            фонде</a></li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="index.html#projects" class="nav__link">Проекты</a>
+                        <a href="index.html#projects" class="nav__link" data-i18n="menu.projects">Проекты</a>
                         <ul class="nav__dropdown">
-                            <li><a href="project-playground.html">Спортивная площадка в Духцове</a></li>
-                            <li><a href="#">Базовые потребности</a></li>
+                            <li><a href="project-playground.html"
+                                    data-i18n="projects.items.sportsGround.title">Спортивная площадка в Духцове</a></li>
+                            <li><a href="#" data-i18n="projects.items.basicNeeds.title">Базовые потребности</a></li>
                         </ul>
                     </li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="index.html#help" class="nav__link">Как помочь</a>
+                        <a href="index.html#help" class="nav__link" data-i18n="menu.help">Как помочь</a>
                         <ul class="nav__dropdown">
-                            <li><a href="#">Пожертвовать</a></li>
-                            <li><a href="fundraiser.html">Станьте Фандрайзером</a></li>
+                            <li><a href="#" data-i18n="menu.donate">Пожертвовать</a></li>
+                            <li><a href="fundraiser.html" data-i18n="howToHelp.fundraiser.title">Станьте
+                                    Фандрайзером</a></li>
                         </ul>
                     </li>
-                    <li class="nav__item"><a href="index.html#contact" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link"
+                            data-i18n="menu.contacts">Контакты</a></li>
                 </ul>
             </nav>
 
@@ -48,7 +52,7 @@
                     <a href="#" class="lang-link">CS</a>
                     <a href="#" class="lang-link">UA</a>
                 </div>
-                <a href="#" class="btn btn--primary header__btn">Пожертвовать</a>
+                <a href="#" class="btn btn--primary header__btn" data-i18n="menu.donate">Пожертвовать</a>
                 <button class="burger" id="burger" aria-label="Меню">
                     <span></span>
                     <span></span>
@@ -66,9 +70,9 @@
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M19 12H5M12 19l-7-7 7-7" />
                     </svg>
-                    Назад к проектам
+                    <span data-i18n="projectPage.back">Назад к проектам</span>
                 </a>
-                <h1 class="project-hero__title">Наши проекты</h1>
+                <h1 class="project-hero__title" data-i18n="projectPage.title">Наши проекты</h1>
             </div>
         </section>
 
@@ -76,34 +80,39 @@
             <div class="container">
                 <div class="project-detail__grid">
                     <div class="project-detail__content">
-                        <h2 class="project-detail__title">Спортивная площадка в Духцове</h2>
+                        <h2 class="project-detail__title" data-i18n="projectPage.project.title">Спортивная площадка в
+                            Духцове</h2>
 
                         <div class="project-detail__image">
-                            <div class="project-detail__image-placeholder">
+                            <div class="project-detail__image-placeholder" data-i18n="projectPage.project.photo">
                                 Фото
                             </div>
                         </div>
 
                         <div class="project-detail__text">
-                            <p>Фонд «Хаватк» был создан с чёткой целью – помогать детям, оказавшимся в сложной жизненной
+                            <p data-i18n="projectDetail.paragraphs.0">Фонд «Хаватк» был создан с чёткой целью – помогать
+                                детям, оказавшимся в сложной жизненной
                                 ситуации, и поддерживать их на пути к лучшему будущему. Мы верим, что каждый ребёнок
                                 заслуживает возможности расти в безопасности, иметь пространство для развития и однажды
                                 уверенно и смело вступить во взрослую жизнь.</p>
 
-                            <p>Одним из наших ключевых достижений стало завершение строительства открытой спортивной
+                            <p data-i18n="projectDetail.paragraphs.1">Одним из наших ключевых достижений стало
+                                завершение строительства открытой спортивной
                                 площадки в сотрудничестве с детским домом, начальной и средней школами в Духцове. Теперь
                                 это пространство служит местом, где дети могут активно проводить время, заниматься
                                 спортом, встречаться, обмениваться опытом и укреплять дружеские связи. Площадка уже
                                 стала важным центром притяжения и местом, которое вдохновляет детей на движение,
                                 развитие и новые победы.</p>
 
-                            <p>Цель нашего фонда — оказывать долгосрочную поддержку детям в трудные моменты жизни и
+                            <p data-i18n="projectDetail.paragraphs.2">Цель нашего фонда — оказывать долгосрочную
+                                поддержку детям в трудные моменты жизни и
                                 помогать им расти. Мы уделяем особое внимание их образованию, здоровому образу жизни и
                                 психологическому благополучию. Каждый наш проект направлен на то, чтобы не только
                                 облегчить текущие обстоятельства, но и принести детям реальные, ощутимые и
                                 долговременные ценности.</p>
 
-                            <p>Вместе мы уже меняем жизнь детей к лучшему. Спасибо за вашу поддержку и веру в нашу
+                            <p data-i18n="projectDetail.paragraphs.3">Вместе мы уже меняем жизнь детей к лучшему.
+                                Спасибо за вашу поддержку и веру в нашу
                                 миссию.</p>
                         </div>
                     </div>
@@ -111,7 +120,8 @@
                     <aside class="project-detail__sidebar">
                         <div class="donation-widget">
                             <div class="donation-widget__header">
-                                <span class="donation-widget__title">Поддержите проект</span>
+                                <span class="donation-widget__title" data-i18n="donationWidget.title">Поддержите
+                                    проект</span>
                             </div>
 
                             <div class="donation-widget__amounts">
@@ -129,22 +139,23 @@
                                 </label>
                                 <label class="donation-amount">
                                     <input type="radio" name="amount" value="custom">
-                                    <span>Другое</span>
+                                    <span data-i18n="donationWidget.amounts.other">Другое</span>
                                 </label>
                             </div>
 
                             <div class="frequency-selector">
                                 <label class="frequency-option">
                                     <input type="radio" name="frequency" value="once" checked>
-                                    <span>Разово</span>
+                                    <span data-i18n="donationWidget.frequency.oneTime">Разово</span>
                                 </label>
                                 <label class="frequency-option">
                                     <input type="radio" name="frequency" value="monthly">
-                                    <span>Ежемесячно</span>
+                                    <span data-i18n="donationWidget.frequency.monthly">Ежемесячно</span>
                                 </label>
                             </div>
 
-                            <a href="#" class="btn btn--primary btn--full donation-widget__btn">Пожертвовать</a>
+                            <a href="#" class="btn btn--primary btn--full donation-widget__btn"
+                                data-i18n="donationWidget.button">Пожертвовать</a>
                         </div>
 
                         <div class="project-progress-widget project-progress-widget--completed">
@@ -154,9 +165,9 @@
                                     stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                Сбор завершён
+                                <span data-i18n="donationWidget.status.completed">Сбор завершён</span>
                             </div>
-                            <h4>Прогресс сбора</h4>
+                            <h4 data-i18n="donationWidget.progress.title">Прогресс сбора</h4>
                             <div class="progress-bar progress-bar--completed">
                                 <div class="progress-bar__fill" style="width: 100%;"></div>
                             </div>
@@ -175,8 +186,8 @@
         <div class="container footer__container">
             <div class="footer__grid">
                 <div class="footer__col">
-                    <h4 class="footer__title">HAVATK Foundation</h4>
-                    <p>Помогаем детям в трудных обстоятельствах с 2020 года.</p>
+                    <h4 class="footer__title" data-i18n="footer.about.title">HAVATK Foundation</h4>
+                    <p data-i18n="footer.about.description">Помогаем детям в трудных обстоятельствах с 2020 года.</p>
                     <div class="social-links">
                         <a href="#" class="social-link" aria-label="Facebook">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
@@ -194,25 +205,25 @@
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Быстрые ссылки</h4>
+                    <h4 class="footer__title" data-i18n="footer.quickLinks.title">Быстрые ссылки</h4>
                     <ul class="footer__links">
-                        <li><a href="index.html#about">О фонде</a></li>
-                        <li><a href="index.html#projects">Проекты</a></li>
-                        <li><a href="index.html#help">Как помочь</a></li>
-                        <li><a href="index.html#contact">Контакты</a></li>
+                        <li><a href="index.html#about" data-i18n="footer.quickLinks.about">О фонде</a></li>
+                        <li><a href="index.html#projects" data-i18n="footer.quickLinks.projects">Проекты</a></li>
+                        <li><a href="index.html#help" data-i18n="footer.quickLinks.help">Как помочь</a></li>
+                        <li><a href="index.html#contact" data-i18n="footer.quickLinks.contacts">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Правовая информация</h4>
+                    <h4 class="footer__title" data-i18n="footer.legal.title">Правовая информация</h4>
                     <ul class="footer__links">
-                        <li><a href="#">Политика конфиденциальности</a></li>
-                        <li><a href="#">Условия использования</a></li>
+                        <li><a href="#" data-i18n="footer.legal.privacy">Политика конфиденциальности</a></li>
+                        <li><a href="#" data-i18n="footer.legal.terms">Условия использования</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                <p>&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
             </div>
         </div>
     </footer>

@@ -22,22 +22,26 @@
 
             <nav class="nav" id="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">О фонде</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link" data-i18n="menu.about">О
+                            фонде</a></li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="index.html#projects" class="nav__link">Проекты</a>
+                        <a href="index.html#projects" class="nav__link" data-i18n="menu.projects">Проекты</a>
                         <ul class="nav__dropdown">
-                            <li><a href="project-playground.html">Спортивная площадка в Духцове</a></li>
-                            <li><a href="#">Базовые потребности</a></li>
+                            <li><a href="project-playground.html"
+                                    data-i18n="projects.items.sportsGround.title">Спортивная площадка в Духцове</a></li>
+                            <li><a href="#" data-i18n="projects.items.basicNeeds.title">Базовые потребности</a></li>
                         </ul>
                     </li>
                     <li class="nav__item nav__item--dropdown">
-                        <a href="index.html#help" class="nav__link">Как помочь</a>
+                        <a href="index.html#help" class="nav__link" data-i18n="menu.help">Как помочь</a>
                         <ul class="nav__dropdown">
-                            <li><a href="#">Пожертвовать</a></li>
-                            <li><a href="fundraiser.html">Станьте Фандрайзером</a></li>
+                            <li><a href="#" data-i18n="menu.donate">Пожертвовать</a></li>
+                            <li><a href="fundraiser.html" data-i18n="howToHelp.fundraiser.title">Станьте
+                                    Фандрайзером</a></li>
                         </ul>
                     </li>
-                    <li class="nav__item"><a href="index.html#contact" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="index.html#contact" class="nav__link"
+                            data-i18n="menu.contacts">Контакты</a></li>
                 </ul>
             </nav>
 
@@ -48,7 +52,7 @@
                     <a href="#" class="lang-link">CS</a>
                     <a href="#" class="lang-link">UA</a>
                 </div>
-                <a href="#" class="btn btn--primary header__btn">Пожертвовать</a>
+                <a href="#" class="btn btn--primary header__btn" data-i18n="menu.donate">Пожертвовать</a>
                 <button class="burger" id="burger" aria-label="Меню">
                     <span></span>
                     <span></span>
@@ -66,28 +70,33 @@
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M19 12H5M12 19l-7-7 7-7" />
                     </svg>
-                    Назад
+                    <span data-i18n="fundraiserPage.back">Назад</span>
                 </a>
-                <h1 class="project-hero__title">Как вы можете нам помочь?</h1>
+                <h1 class="project-hero__title" data-i18n="fundraiserPage.title">Как вы можете нам помочь?</h1>
             </div>
         </section>
 
         <section class="fundraiser-page section">
             <div class="container">
                 <div class="fundraiser-intro">
-                    <h2 class="fundraiser-intro__title">Станьте Фандрайзером</h2>
-                    <p class="fundraiser-intro__text">Благотворительный фонд Havatk расширяет <strong>свою команду по
+                    <h2 class="fundraiser-intro__title" data-i18n="fundraiserPage.section.title">Станьте Фандрайзером
+                    </h2>
+                    <p class="fundraiser-intro__text" data-i18n="fundraiserPage.section.description">Благотворительный
+                        фонд Havatk расширяет <strong>свою команду по
                             сбору средств</strong>, и вы можете стать её частью.</p>
                 </div>
 
                 <div class="fundraiser-hero-block">
-                    <h2 class="fundraiser-hero-block__title">Фандрайзер фонда «Хаватк»</h2>
-                    <p class="fundraiser-hero-block__subtitle">Станьте частью команды, которая помогает детям</p>
+                    <h2 class="fundraiser-hero-block__title" data-i18n="fundraiserPage.cta.title">Фандрайзер фонда
+                        «Хаватк»</h2>
+                    <p class="fundraiser-hero-block__subtitle" data-i18n="fundraiserPage.cta.subtitle">Станьте частью
+                        команды, которая помогает детям</p>
                 </div>
 
                 <div class="fundraiser-content">
                     <div class="fundraiser-section">
-                        <h3 class="fundraiser-section__title">Подходит ли вам эта роль?</h3>
+                        <h3 class="fundraiser-section__title" data-i18n="fundraiserDetails.fitSection.title">Подходит ли
+                            вам эта роль?</h3>
                         <ul class="fundraiser-checklist">
                             <li>
                                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -95,7 +104,8 @@
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                Вам нравится работать в активной и дружной команде?
+                                <span data-i18n="fundraiserDetails.fitSection.items.0">Вам нравится работать в активной
+                                    и дружной команде?</span>
                             </li>
                             <li>
                                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -103,7 +113,8 @@
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                Любите общение и прямой контакт с людьми?
+                                <span data-i18n="fundraiserDetails.fitSection.items.1">Любите общение и прямой контакт с
+                                    людьми?</span>
                             </li>
                             <li>
                                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -111,7 +122,8 @@
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                Хотите участвовать в деятельности благотворительной организации?
+                                <span data-i18n="fundraiserDetails.fitSection.items.2">Хотите участвовать в деятельности
+                                    благотворительной организации?</span>
                             </li>
                             <li>
                                 <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -119,40 +131,56 @@
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                Важно видеть реальные результаты своей работы?
+                                <span data-i18n="fundraiserDetails.fitSection.items.3">Важно видеть реальные результаты
+                                    своей работы?</span>
                             </li>
                         </ul>
-                        <p class="fundraiser-section__highlight">Если да — добро пожаловать в нашу команду.</p>
+                        <p class="fundraiser-section__highlight" data-i18n="fundraiserDetails.fitSection.conclusion">
+                            Если да — добро пожаловать в нашу команду.</p>
                     </div>
 
                     <div class="fundraiser-section">
-                        <h3 class="fundraiser-section__title">Что вы будете делать</h3>
-                        <p>Фандрайзер — это представитель фонда, который общается с людьми в городе, рассказывает о
+                        <h3 class="fundraiser-section__title" data-i18n="fundraiserDetails.responsibilities.title">Что
+                            вы будете делать</h3>
+                        <p data-i18n="fundraiserDetails.responsibilities.paragraphs.0">Фандрайзер — это представитель
+                            фонда, который общается с людьми в городе, рассказывает о
                             проектах «Хаватк» и вдохновляет их поддерживать детей, находящихся в трудной жизненной
                             ситуации.</p>
-                        <p>Вы будете участвовать в работе, которая приносит ощутимую пользу и меняет детские жизни к
+                        <p data-i18n="fundraiserDetails.responsibilities.paragraphs.1">Вы будете участвовать в работе,
+                            которая приносит ощутимую пользу и меняет детские жизни к
                             лучшему.</p>
                     </div>
 
                     <div class="fundraiser-section">
-                        <h3 class="fundraiser-section__title">Что требуется</h3>
+                        <h3 class="fundraiser-section__title" data-i18n="fundraiserRequirements.requirements.title">Что
+                            требуется</h3>
                         <ul class="fundraiser-list">
-                            <li>Коммуникативность и позитивный настрой</li>
-                            <li>Умение легко вступать в диалог</li>
-                            <li>Желание помогать детям и развиваться</li>
-                            <li>Ответственность и уважительное отношение к людям</li>
-                            <li><strong>Опыт не обязателен — мы всему обучим</strong></li>
+                            <li data-i18n="fundraiserRequirements.requirements.items.0">Коммуникативность и позитивный
+                                настрой</li>
+                            <li data-i18n="fundraiserRequirements.requirements.items.1">Умение легко вступать в диалог
+                            </li>
+                            <li data-i18n="fundraiserRequirements.requirements.items.2">Желание помогать детям и
+                                развиваться</li>
+                            <li data-i18n="fundraiserRequirements.requirements.items.3">Ответственность и уважительное
+                                отношение к людям</li>
+                            <li data-i18n="fundraiserRequirements.requirements.items.4"><strong>Опыт не обязателен — мы
+                                    всему обучим</strong></li>
                         </ul>
                     </div>
 
                     <div class="fundraiser-section">
-                        <h3 class="fundraiser-section__title">Мы предлагаем</h3>
+                        <h3 class="fundraiser-section__title" data-i18n="fundraiserRequirements.offer.title">Мы
+                            предлагаем</h3>
                         <ul class="fundraiser-list">
-                            <li>Гибкий график — вы выбираете удобные дни и часы</li>
-                            <li>Работа в поддерживающей, мотивированной команде</li>
-                            <li>Локации по всей Праге — координатор поможет с выбором</li>
-                            <li>Быстрое обучение и сопровождение</li>
-                            <li>Возможности для профессионального и личностного роста</li>
+                            <li data-i18n="fundraiserRequirements.offer.items.0">Гибкий график — вы выбираете удобные
+                                дни и часы</li>
+                            <li data-i18n="fundraiserRequirements.offer.items.1">Работа в поддерживающей, мотивированной
+                                команде</li>
+                            <li data-i18n="fundraiserRequirements.offer.items.2">Локации по всей Праге — координатор
+                                поможет с выбором</li>
+                            <li data-i18n="fundraiserRequirements.offer.items.3">Быстрое обучение и сопровождение</li>
+                            <li data-i18n="fundraiserRequirements.offer.items.4">Возможности для профессионального и
+                                личностного роста</li>
                         </ul>
                     </div>
                 </div>
@@ -162,49 +190,53 @@
         <section id="contact" class="section contact">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Свяжитесь с нами</h2>
+                    <h2 class="section__title" data-i18n="contact.title">Свяжитесь с нами</h2>
                 </div>
 
                 <div class="contact__grid">
                     <div class="contact__form-wrapper">
                         <form class="contact__form">
                             <div class="form-group">
-                                <label for="name">Полное имя</label>
-                                <input type="text" id="name" name="name" placeholder="Ваше имя">
+                                <label for="name" data-i18n="contact.form.fullName.label">Полное имя</label>
+                                <input type="text" id="name" name="name" placeholder="Ваше имя"
+                                    data-i18n-placeholder="contact.form.fullName.placeholder">
                             </div>
                             <div class="form-group">
-                                <label for="email">Электронная почта</label>
-                                <input type="email" id="email" name="email" placeholder="email@example.com">
+                                <label for="email" data-i18n="contact.form.email.label">Электронная почта</label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com"
+                                    data-i18n-placeholder="contact.form.email.placeholder">
                             </div>
                             <div class="form-group">
-                                <label for="subject">Тема</label>
-                                <input type="text" id="subject" name="subject" placeholder="Тема сообщения">
+                                <label for="subject" data-i18n="contact.form.subject.label">Тема</label>
+                                <input type="text" id="subject" name="subject" placeholder="Тема сообщения"
+                                    data-i18n-placeholder="contact.form.subject.placeholder">
                             </div>
                             <div class="form-group">
-                                <label for="message">Сообщение</label>
-                                <textarea id="message" name="message" rows="5"
-                                    placeholder="Ваше сообщение..."></textarea>
+                                <label for="message" data-i18n="contact.form.message.label">Сообщение</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение..."
+                                    data-i18n-placeholder="contact.form.message.placeholder"></textarea>
                             </div>
-                            <button type="submit" class="btn btn--primary btn--full">Отправить сообщение</button>
+                            <button type="submit" class="btn btn--primary btn--full"
+                                data-i18n="contact.form.button">Отправить сообщение</button>
                         </form>
                     </div>
 
                     <div class="contact__info">
-                        <h3 class="contact__subtitle">Контактная информация</h3>
+                        <h3 class="contact__subtitle" data-i18n="contact.info.title">Контактная информация</h3>
 
                         <div class="info-item">
-                            <h4>Email:</h4>
+                            <h4 data-i18n="contact.info.emailLabel">Email:</h4>
                             <a href="mailto:info@nfhavatk.cz">info@nfhavatk.cz</a>
                         </div>
 
                         <div class="info-item">
-                            <h4>Телефон:</h4>
+                            <h4 data-i18n="contact.info.phoneLabel">Телефон:</h4>
                             <a href="tel:+420776116875">+420 776 116 875</a>
                         </div>
 
                         <div class="info-item">
-                            <h4>Адрес:</h4>
-                            <p>Прага, Чешская Республика</p>
+                            <h4 data-i18n="contact.info.addressLabel">Адрес:</h4>
+                            <p data-i18n="contact.info.address">Прага, Чешская Республика</p>
                         </div>
                     </div>
                 </div>
@@ -216,8 +248,8 @@
         <div class="container footer__container">
             <div class="footer__grid">
                 <div class="footer__col">
-                    <h4 class="footer__title">HAVATK Foundation</h4>
-                    <p>Помогаем детям в трудных обстоятельствах с 2020 года.</p>
+                    <h4 class="footer__title" data-i18n="footer.about.title">HAVATK Foundation</h4>
+                    <p data-i18n="footer.about.description">Помогаем детям в трудных обстоятельствах с 2020 года.</p>
                     <div class="social-links">
                         <a href="#" class="social-link" aria-label="Facebook">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
@@ -235,25 +267,25 @@
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Быстрые ссылки</h4>
+                    <h4 class="footer__title" data-i18n="footer.quickLinks.title">Быстрые ссылки</h4>
                     <ul class="footer__links">
-                        <li><a href="index.html#about">О фонде</a></li>
-                        <li><a href="index.html#projects">Проекты</a></li>
-                        <li><a href="index.html#help">Как помочь</a></li>
-                        <li><a href="index.html#contact">Контакты</a></li>
+                        <li><a href="index.html#about" data-i18n="footer.quickLinks.about">О фонде</a></li>
+                        <li><a href="index.html#projects" data-i18n="footer.quickLinks.projects">Проекты</a></li>
+                        <li><a href="index.html#help" data-i18n="footer.quickLinks.help">Как помочь</a></li>
+                        <li><a href="index.html#contact" data-i18n="footer.quickLinks.contacts">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Правовая информация</h4>
+                    <h4 class="footer__title" data-i18n="footer.legal.title">Правовая информация</h4>
                     <ul class="footer__links">
-                        <li><a href="#">Политика конфиденциальности</a></li>
-                        <li><a href="#">Условия использования</a></li>
+                        <li><a href="#" data-i18n="footer.legal.privacy">Политика конфиденциальности</a></li>
+                        <li><a href="#" data-i18n="footer.legal.terms">Условия использования</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                <p>&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 Nadační fond HAVATK. Все права защищены.</p>
             </div>
         </div>
     </footer>
