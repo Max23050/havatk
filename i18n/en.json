@@ -34,14 +34,15 @@
         "status": {
             "completed": "Fundraising completed"
         },
+        "from": "of",
         "items": {
             "sportsGround": {
                 "title": "Sports Ground in Dukhove",
                 "description": "Construction of a sports facility in an orphanage and a school.",
                 "button": "Learn more"
             },
-            "basicNeeds": {
-                "title": "Basic Needs",
+            "interactiveEducation": {
+                "title": "Interactive Education in Pilsen",
                 "description": "Food, clothing, and shelter for children in crisis.",
                 "button": "Learn more"
             }
@@ -61,6 +62,18 @@
             "One of our key achievements was the completion of an outdoor sports ground built in cooperation with an orphanage, a primary school, and a secondary school in Dukhove. This space now serves as a place where children can spend time actively, play sports, meet others, share experiences, and build strong friendships. The sports ground has already become an important community hub that inspires children to move, grow, and achieve new victories.",
             "The goal of our foundation is to provide long-term support to children during challenging periods of their lives and help them grow. We place special emphasis on education, a healthy lifestyle, and psychological well-being. Each of our projects is designed not only to ease current difficulties but also to bring real, tangible, and lasting value to children.",
             "Together, we are already changing children’s lives for the better. Thank you for your support and for believing in our mission."
+        ]
+    },
+    "educationProjectPage": {
+        "project": {
+            "title": "Interactive Education in Pilsen"
+        }
+    },
+    "educationProjectDetail": {
+        "paragraphs": [
+            "The HAVATK Foundation was established with a sincere desire to support children and create better conditions for their education and development. We are convinced that quality education is one of the key factors that helps children realize their potential and look confidently into the future.",
+            "As part of our activities, we are implementing a project to equip a primary school in Pilsen with modern electronic and interactive educational panels. These technologies significantly expand learning opportunities, making lessons more visual, engaging, and accessible for children with diverse educational needs.",
+            "Our goal is not only to provide technical equipment, but to make a real contribution to the development of a modern, high-quality, and inspiring educational environment. We strive for children to learn with interest, develop critical thinking, and gain knowledge in an environment that supports their growth and self-confidence."
         ]
     },
     "donationWidget": {

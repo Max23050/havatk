@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const langLinks = document.querySelectorAll('.lang-link');
-    const defaultLang = 'ru';
-    const supportedLangs = ['ru', 'en', 'cs', 'uk'];
+    const defaultLang = 'cs';
+    const supportedLangs = ['cs', 'en', 'uk'];
 
     function getPreferredLanguage() {
         const savedLang = localStorage.getItem('selectedLanguage');

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="cs">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HAVATK - Благотворительный фонд. Помогаем детям в трудных обстоятельствах.">
-    <title>HAVATK - Благотворительный фонд</title>
+    <meta name="description" content="HAVATK - Nadační fond. Pomáháme dětem v těžkých životních situacích.">
+    <title>HAVATK - Nadační fond</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -29,7 +29,9 @@
                         <ul class="nav__dropdown">
                             <li><a href="project-playground.html"
                                     data-i18n="projects.items.sportsGround.title">Спортивная площадка в Духцове</a></li>
-                            <li><a href="#" data-i18n="projects.items.basicNeeds.title">Базовые потребности</a></li>
+                            <li><a href="project-education.html"
+                                    data-i18n="projects.items.interactiveEducation.title">Interaktivní vzdělávání v
+                                    Plzni</a></li>
                         </ul>
                     </li>
                     <li class="nav__item nav__item--dropdown">
@@ -47,9 +49,8 @@
 
             <div class="header__actions">
                 <div class="lang-switcher">
-                    <a href="#" class="lang-link active">RU</a>
+                    <a href="#" class="lang-link active">CS</a>
                     <a href="#" class="lang-link">EN</a>
-                    <a href="#" class="lang-link">CS</a>
                     <a href="#" class="lang-link">UA</a>
                 </div>
                 <a href="#" class="btn btn--primary header__btn" data-i18n="menu.donate">Пожертвовать</a>
@@ -136,7 +137,7 @@
                             <span data-i18n="projects.status.completed">Сбор завершён</span>
                         </div>
                         <div class="project-card__image"
-                            style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            style="background-color: #e14d43; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                             🏃
                         </div>
                         <div class="project-card__content">
@@ -150,7 +151,7 @@
                             </div>
                             <div class="project-card__stats">
                                 <span>400 000 CZK</span>
-                                <span>из 400 000 CZK</span>
+                                <span><span data-i18n="projects.from">из</span> 400 000 CZK</span>
                             </div>
 
                             <div class="project-card__actions">
@@ -162,25 +163,26 @@
 
                     <div class="card project-card fade-in delay-2">
                         <div class="project-card__image"
-                            style="background-color: #2A808C; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                            style="background-color: #e14d43; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                             ❤️
                         </div>
                         <div class="project-card__content">
-                            <h3 class="card__title" data-i18n="projects.items.basicNeeds.title">Базовые потребности</h3>
-                            <p class="card__text" data-i18n="projects.items.basicNeeds.description">Еда, одежда и кров
-                                для детей в кризис.</p>
+                            <h3 class="card__title" data-i18n="projects.items.interactiveEducation.title">Interaktivní
+                                vzdělávání v Plzni</h3>
+                            <p class="card__text" data-i18n="projects.items.interactiveEducation.description">Jídlo,
+                                oblečení a přístřeší pro děti v krizi.</p>
 
                             <div class="progress-bar">
-                                <div class="progress-bar__fill" style="width: 62%;"></div>
+                                <div class="progress-bar__fill" style="width: 35%;"></div>
                             </div>
                             <div class="project-card__stats">
-                                <span>18 750 CZK</span>
-                                <span>из 30 000 CZK</span>
+                                <span>52 500 CZK</span>
+                                <span><span data-i18n="projects.from">z</span> 150 000 CZK</span>
                             </div>
 
                             <div class="project-card__actions">
-                                <a href="#" class="btn btn--primary btn--full"
-                                    data-i18n="projects.items.basicNeeds.button">Подробнее</a>
+                                <a href="project-education.html" class="btn btn--primary btn--full"
+                                    data-i18n="projects.items.interactiveEducation.button">Více informací</a>
                             </div>
                         </div>
                     </div>

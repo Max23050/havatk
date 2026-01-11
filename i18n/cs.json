@@ -34,14 +34,15 @@
         "status": {
             "completed": "Sbírka ukončena"
         },
+        "from": "z",
         "items": {
             "sportsGround": {
                 "title": "Sportovní hřiště v Duchcově",
                 "description": "Výstavba sportovního areálu v dětském domově a škole.",
                 "button": "Více informací"
             },
-            "basicNeeds": {
-                "title": "Základní potřeby",
+            "interactiveEducation": {
+                "title": "Interaktivní vzdělávání v Plzni",
                 "description": "Jídlo, oblečení a přístřeší pro děti v krizi.",
                 "button": "Více informací"
             }
@@ -61,6 +62,18 @@
             "Jedním z našich klíčových úspěchů bylo dokončení výstavby venkovního sportovního hřiště ve spolupráci s dětským domovem a základní a střední školou v Duchcově. Tento prostor nyní slouží jako místo, kde mohou děti aktivně trávit čas, sportovat, setkávat se, sdílet zkušenosti a posilovat přátelské vztahy. Hřiště se již stalo důležitým centrem setkávání a místem, které děti inspiruje k pohybu, rozvoji a novým vítězstvím.",
             "Cílem naší nadace je poskytovat dětem dlouhodobou podporu v těžkých životních chvílích a pomáhat jim růst. Zvláštní pozornost věnujeme jejich vzdělání, zdravému životnímu stylu a psychické pohodě. Každý náš projekt je zaměřen nejen na zmírnění aktuálních obtíží, ale také na přinášení skutečných, hmatatelných a dlouhodobých hodnot.",
             "Společně už měníme životy dětí k lepšímu. Děkujeme za vaši podporu a důvěru v naši misi."
+        ]
+    },
+    "educationProjectPage": {
+        "project": {
+            "title": "Interaktivní vzdělávání v Plzni"
+        }
+    },
+    "educationProjectDetail": {
+        "paragraphs": [
+            "Nadace Havatk byla založena s upřímným úsilím podporovat děti a vytvářet pro ně lepší podmínky pro vzdělávání a rozvoj. Jsme přesvědčeni, že kvalitní vzdělání je jedním z klíčových faktorů, který pomáhá dětem naplnit svůj potenciál a s důvěrou hledět do budoucnosti.",
+            "V rámci naší činnosti realizujeme projekt vybavení základní školy v Plzni moderními elektronickými a interaktivními vzdělávacími panely. Tyto technologie výrazně rozšiřují možnosti výuky, činí hodiny názornějšími, zajímavějšími a přístupnějšími pro děti s různými vzdělávacími potřebami.",
+            "Naším cílem není pouze poskytnout technické prostředky, ale přinést skutečný přínos rozvoji moderního, kvalitního a inspirujícího vzdělávacího prostoru. Usilujeme o to, aby se děti učily se zájmem, rozvíjely kritické myšlení a získávaly znalosti v prostředí, které podporuje jejich růst a sebedůvěru."
         ]
     },
     "donationWidget": {
